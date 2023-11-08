@@ -1,0 +1,178 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block1{
+    width: 25%;
+    height: 100%;
+    background-color: gold;
+    padding: 10px;
+}
+.block2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(119, 0, 255);
+    padding: 10px;
+}
+.block3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 255, 42);
+    padding: 10px;
+}
+.block4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 81, 0);
+    padding: 10px;
+}
+.block1 li{
+    background-color: aqua;
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius:  3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style-type: "\1f44d";
+}
+.block1 li:hover{
+    background-color: blueviolet;
+    color: snow;
+    list-style-type: "\1f44a";
+    width: 60%;
+    height: 60px;
+}
+.block2 li{
+    background-color: rgb(255, 0, 34);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius:  3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style-type: "\270C";
+}
+.block2 li:hover{
+    background-color: rgb(43, 226, 150);
+    color: snow;
+    list-style-type: "\1F918";
+    width: 60%;
+    height: 60px;
+}
+.block3 li{
+    background-color: rgb(25, 0, 255);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius:  3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style-type: "\1F917";
+}
+.block3 li:hover{
+    background-color: rgb(226, 43, 217);
+    color: snow;
+    list-style-type: "\1F919";
+    width: 60%;
+    height: 60px;
+}
+.block4 li{
+    background-color: rgb(0, 225, 255);
+    line-height: 2em;
+    margin-top: 10px;
+    border-radius:  3em;
+    width: 60%;
+    padding-left: 10px;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style-type: "\1F92B";
+}
+.block4 li:hover{
+    background-color: rgb(226, 43, 119);
+    color: snow;
+    list-style-type: "\1F92D";
+    width: 60%;
+    height: 60px;
+}
+.block1{     background: linear-gradient( to left, rgb(117, 4, 151), rgb(47, 0, 255));  }
+.nav a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(247, 10, 10, 0.973);
+}
+.nav a:hover{
+    background-color: rgba(0, 255, 255, 0.404);
+}
+.nav ul{
+    display: flex;
+    background-color: rgba(16, 231, 63, 0.267);
+    height: 100%;
+    
+    list-style: none;
+    width: 100%;
+    font-size: 30px;
+    border: 2px solid gold;
+}
+.nav{
+    position: sticky;
+    top: 0px;
+}
+.block5{
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    background-color: coral;
+}
